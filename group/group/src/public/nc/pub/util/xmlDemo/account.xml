@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<ufinterface account="01" billtype="account" filename="" groupcode="" isexchange="Y" replace="Y" roottag="" sender="V5-V6">
+    <bill id="">
+        <billhead>
+            <pk_account></pk_account>
+            <!--所属组织,不能为空,最大长度为0,类型为:String-->
+            <pk_org></pk_org>
+            <!--财务核算账簿,不能为空,最大长度为20,类型为:String-->
+            <pk_accountingbook></pk_accountingbook>
+            <!--科目编码,不能为空,最大长度为40,类型为:String-->
+            <code></code>
+            <!--科目名称,不能为空,最大长度为200,类型为:String-->
+            <name></name>
+            <!--科目类型,不能为空,最大长度为64,类型为:String-->
+            <pk_acctype></pk_acctype>
+            <!--现金分类,不能为空,最大长度为64,类型为:Integer-->
+            <cashtype>0</cashtype>
+            <!--科目方向,不能为空,最大长度为64,类型为:Integer-->
+            <balanorient>0</balanorient>
+            <!--汇总打印级别,不能为空,最大长度为0,类型为:Integer-->
+            <sumprint_level>0</sumprint_level>
+            <!--助记码,最大长度为64,类型为:String-->
+            <remcode></remcode>
+            <!--默认币种,最大长度为20,类型为:String-->
+            <currency></currency>
+            <!--账簿余额双向显示,最大长度为0,类型为:UFBoolean-->
+            <bothorient>N</bothorient>
+            <!--默认计量单位,最大长度为0,类型为:String-->
+            <unit></unit>
+            <!--发生额方向控制,最大长度为0,类型为:UFBoolean-->
+            <incurflag>N</incurflag>
+            <!--余额方向控制,最大长度为0,类型为:UFBoolean-->
+            <balanflag>N</balanflag>
+            <!--表外科目,最大长度为0,类型为:UFBoolean-->
+            <outflag>N</outflag>
+            <!--提前关账,最大长度为0,类型为:UFBoolean-->
+            <allowclose>N</allowclose>
+        </billhead>
+    </bill>
+</ufinterface>

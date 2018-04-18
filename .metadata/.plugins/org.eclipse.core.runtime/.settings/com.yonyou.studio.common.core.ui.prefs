@@ -1,0 +1,7 @@
+EXCEPT_JAR_NC_HOME=nc.bs.framework.tool.config.+.jar\r\ntestbill.+.jar\r\n.*PROXY.jar
+FIELD_CLINET_IP=192.168.100.10
+FIELD_EX_MODULES=pubapp
+FIELD_NC_HOME=D\:\\group\\yonyougzy\\home
+PROP_XML_TS=1464846821421
+UAP_HOME_HISTORIES=D\:\\group\\yonyougzy\\home;D\:\\group\\4805-yonyougzy\\yonyougzy\\home;D\:\\group\\4805-yonyougzy\\yonyougzy
+eclipse.preferences.version=1

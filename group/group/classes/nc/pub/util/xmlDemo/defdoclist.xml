@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<ufinterface account="01" billtype="defdoclist" filename="" groupcode="" isexchange="Y" replace="Y" roottag="" sender="V5-V6">
+    <bill id="">
+        <billhead>
+            <pk_defdoclist>
+            </pk_defdoclist>
+             <!--集团,最大长度为20,类型为:String-->
+            <pk_group></pk_group>
+            <!--自定义档案编码,最大长度为30,类型为:String-->
+            <code></code>
+            <!--自定义档案名称,最大长度为70,类型为:String-->
+            <name></name>
+            <!--档案类型,最大长度为0,类型为:Integer-->
+            <doctype>0</doctype>
+            <!--分级,最大长度为1,类型为:UFBoolean-->
+            <isgrade>N</isgrade>
+            <!--档案编码规则,最大长度为40,类型为:String-->
+            <coderule></coderule>
+            <!--编码控制级次,最大长度为0,类型为:Integer-->
+            <codectlgrade>0</codectlgrade>
+            <!--档案管控模式,最大长度为0,类型为:Integer-->
+            <mngctlmode>1</mngctlmode>
+        </billhead>
+    </bill>
+</ufinterface>

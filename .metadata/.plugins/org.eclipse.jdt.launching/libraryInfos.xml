@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk" version="1.6.0_12">
+<bootpath>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\lib\resources.jar"/>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\lib\rt.jar"/>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\lib\sunrsasign.jar"/>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\lib\jsse.jar"/>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\lib\jce.jar"/>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\lib\charsets.jar"/>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\group\4805-yonyougzy\yonyougzy\home\ufjdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\UAP-STUDIO\Runtime" version="1.6.0_45">
+<bootpath>
+<entry path="D:\UAP-STUDIO\Runtime\lib\resources.jar"/>
+<entry path="D:\UAP-STUDIO\Runtime\lib\rt.jar"/>
+<entry path="D:\UAP-STUDIO\Runtime\lib\sunrsasign.jar"/>
+<entry path="D:\UAP-STUDIO\Runtime\lib\jsse.jar"/>
+<entry path="D:\UAP-STUDIO\Runtime\lib\jce.jar"/>
+<entry path="D:\UAP-STUDIO\Runtime\lib\charsets.jar"/>
+<entry path="D:\UAP-STUDIO\Runtime\lib\modules\jdk.boot.jar"/>
+<entry path="D:\UAP-STUDIO\Runtime\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\UAP-STUDIO\Runtime\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\UAP-STUDIO\Runtime\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

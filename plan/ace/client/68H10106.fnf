@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="gbk"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="general" class="nc.pubapp.pade.code.funnode.FunNodePara">
+        <property name="moduleName" value="jxc_hr" />
+	    <property name="bpfPath" value="test.bpf" />
+	    <property name="funcode" value="68H10106"/>
+	    <property name="funNodeName" value="jx06.bgd"/>
+	    <property name="clientPackName" value="nc.ui.jxc_hr.jx06.bgd"/>
+			  		<property name="dbilldDate" value="Billdate" />
+			    <property name="metaData" value="plan\METADATA\BGD.bmf" />
+	    <property name="xmlPath" value="plan\src\client\nc\ui\jxc_hr\jx06/bgd\ace\view\BGD_config.xml" />
+	    <property name="metaDataType" value="multiType" />
+	    <property name="funcregispath" value="plan/funcmodel/BGD/funcregis/68H10106.func" />
+	    <property name="quetempath" value="plan/templet/BGD/querytemplet/68H10106.qtf" />
+	    <property name="printtempath" value="plan/templet/BGD/outtemplet/68H10106.otf" />
+	    <property name="systembasepath" value="plan/systemplatebase/BGD/68H10106/68H10106.stb" />
+	    <property name="extendSuffix" value=""/>
+	    <property name="uif2ModelFilePath" value="plan\ace\uif2model\68H10106.umf"/>
+	    <property name="busiCompName" value="plan"/>
+	    <property name="metaDataId" value="a84c9b0b-7196-4a5b-a165-0b03e64d56cf"/>
+	</bean>
+	
+	<bean id="templet" class="nc.pubapp.pade.code.funnode.Templet">
+	    <property name="tempStyle" value="2" />
+	    <property name="nodeKey" value="" />
+		<property name="templetPath" value="plan/templet/BGD/billtemplet/68H10106.btf" />
+	</bean>
+
+	<bean id="BAEHpara" class="nc.pubapp.pade.code.funnode.BodyAfterEditHandlerPara">
+		<property name="itemList">
+			<list>
+							</list>
+		</property>
+	</bean>
+
+	<bean id="BBEHpara" class="nc.pubapp.pade.code.funnode.BodyBeforeEditHandlerPara">
+		<property name="itemList">
+			<list>
+							</list>
+		</property>
+	</bean>
+	
+	<bean id="HTBEHpara" class="nc.pubapp.pade.code.funnode.HeadTailBeforeEditHandlerPara">
+	</bean>
+	
+	<bean id="HTAEHpara" class="nc.pubapp.pade.code.funnode.HeadTailAfterEditHandlerPara">
+	</bean>
+	
+	<bean id="SerPropara" class="nc.pubapp.pade.code.funnode.ServiceProxyPara">
+						<property name="queryAllPk">
+			<bean class="nc.pubapp.pade.code.funnode.ServiceProxyItemPara">
+				<property name="fullClassName" value="nc.itf.jxc_hr.jx06.IBGDMaintain" />
+				<property name="itmClassName" value=".IBGDMaintain" />
+				<property name="methodName" value="queryPKs" />
+			</bean>
+		</property>
+				<property name="queryBillByPk">
+			<bean class="nc.pubapp.pade.code.funnode.ServiceProxyItemPara">
+				<property name="fullClassName" value="nc.itf.jxc_hr.jx06.IBGDMaintain" />
+				<property name="itmClassName" value=".IBGDMaintain" />
+				<property name="methodName" value="queryBillByPK" />
+			</bean>
+		</property>
+		</bean>
+	
+	<bean id="FilePackNameBean" class="nc.pubapp.pade.code.engine.FilePackNamePara">
+    	<property name="filePackNameList">
+	    	<list>
+				     						       <value>nc.ui.jxc_hr.jx06.bgd.handler.OrgChangedHandler.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.ace.handler.AceAddHandler.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.ace.handler.AceBodyAfterEditHandler.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.ace.handler.AceBodyBeforeEditHandler.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.ace.handler.AceHeadTailAfterEditHandler.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.ace.handler.AceHeadTailBeforeEditHandler.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.ace.handler.AceOrgChangedHandler.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.ace.serviceproxy.AceBGDMaintainProxy.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.action.BGDAddAction.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.action.BGDDeleteAction.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.action.BGDEditAction.java</value>
+			       <value>nc.ui.jxc_hr.jx06.bgd.action.CopyActionProcessor.java</value>
+			     			       <value>nc.ui.jxc_hr.jx06.bgd.query.BGDQueryConditionInitializer.java</value>
+		     </list>
+	   </property>
+	</bean>
+
+</beans>

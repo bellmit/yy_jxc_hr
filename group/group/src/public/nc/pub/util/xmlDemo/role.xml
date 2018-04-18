@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<ufinterface account="01" billtype="role" filename="" groupcode="" isexchange="Y" replace="Y" roottag="" sender="V5-V6">
+    <bill id="">
+        <billhead>
+            <!--角色编码,最大长度为30,类型为:String-->
+            <role_code></role_code>
+            <!--角色名称,最大长度为200,类型为:String-->
+            <role_name></role_name>
+            <!--角色类型,最大长度为0,类型为:Integer-->
+            <role_type>0</role_type>
+            <!--所属组织,最大长度为20,类型为:String-->
+            <pk_org></pk_org>
+            <!--角色组,最大长度为20,类型为:String-->
+            <role_group_id></role_group_id>
+            <role_memo></role_memo>
+        </billhead>
+    </bill>
+</ufinterface>

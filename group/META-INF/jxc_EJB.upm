@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module name="jxc">
+	<public>
+		<component name="IWebservice_jxc" tx="CMT" singleton="true" remote="true" active="true">
+			<interface>nc.jxc.pub.ws.IWebservice_jxc</interface>
+			<implementation>nc.jxc.pub.ws.Webservice_jxcImpl</implementation>
+			<extension class="nc.uap.ws.deploy.OxbWSExtensionProcessor">
+				<wsdl>/nc/jxc/pub/ws/IWebservice_jxc.wsdl</wsdl>
+				<address>/IWebservice_jxc</address>
+			</extension>
+		</component>
+	</public>
+	<private>
+	</private>
+</module>

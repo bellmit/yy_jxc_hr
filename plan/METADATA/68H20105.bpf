@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gbk"?>
+<component conRouterType="手动" createIndustry="0" createTime="2011-11-11 15:44:21" creator="" description="" displayName="htVO" fromSourceBmf="true" gencodestyle="NC传统样式" help="" id="ce8049a8-a3f0-4dad-8cbd-b82e75d33977" industry="0" industryChanged="false" industryIncrease="false" industryName="基础行业" isSource="false" isbizmodel="true" mainEntity="" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="htVO" namespace="jxc_hr" ownModule="jxc_hr" preLoad="false" resModuleName="htVO" resid="" version="54" versionType="0">
+    <celllist>
+        <opinterface componentID="ce8049a8-a3f0-4dad-8cbd-b82e75d33977" createIndustry="0" createTime="2011-11-11 15:44:24" creator="" description="" displayName="操作接口" fullClassName="nc.itf.jxc_hr.ht01.IHtglMaintain" height="155" help="" id="bdbf5c11-9983-4569-bc73-030d9fabdb1c" implClsName="nc.impl.jxc_hr.ht01.HtglMaintainImpl" industryChanged="false" isAuthorization="true" isBusiActivity="false" isBusiOperation="false" isSource="false" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="OpInterface" remote="true" resid="" singleton="true" transprop="NONE" version="" versionType="0" visibility="public" width="136" x="68" y="52">
+            <operationlist>
+                  <operation dataTypeStyle="SINGLE" defclassname="" displayName="删除" forBusinessEntity="N" help="" id="bf625cff-d322-4823-bae3-b617742fc109" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="delete" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="REQUIRED" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="bf625cff-d322-4823-bae3-b617742fc109" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="bf625cff-d322-4823-bae3-b617742fc109" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="增加" forBusinessEntity="N" help="" id="97f2c7aa-b20f-4b01-85ed-739ff41c990a" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="insert" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="REQUIRED" typeDisplayName="合同登记表" typeName="htVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="97f2c7aa-b20f-4b01-85ed-739ff41c990a" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="97f2c7aa-b20f-4b01-85ed-739ff41c990a" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="修改" forBusinessEntity="N" help="" id="b7f788f7-fb2c-4e30-90c7-599abeb007b5" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="update" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="REQUIRED" typeDisplayName="合同登记表" typeName="htVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="b7f788f7-fb2c-4e30-90c7-599abeb007b5" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="b7f788f7-fb2c-4e30-90c7-599abeb007b5" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                   <operation dataType="BS000010000100001001" dataTypeStyle="ARRAY" dbtype="varchar" defclassname="" displayName="查询所有PK" forBusinessEntity="N" help="" id="3274bc11-e05c-4e64-b88c-0b803a22c865" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="queryPK" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="REQUIRED" typeDisplayName="String" typeName="String" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="queryScheme" isAggVO="false" name="queryScheme" operationID="3274bc11-e05c-4e64-b88c-0b803a22c865" paramTypeForLog="7" paramdefclassname="nc.ui.querytemplate.querytree.IQueryScheme" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+            f9621660-54f6-4113-960f-305fb733e7a0f9621660-54f6-4113-960f-305fb733e7a0        </paramlist>
+                </operation>
+                <operation dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="根据PK查单据" forBusinessEntity="N" help="" id="54131e07-7374-4a4c-a31b-5ce6d37127df" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="querybill" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="REQUIRED" typeDisplayName="合同登记表" typeName="htVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="pks" isAggVO="false" name="pks" operationID="54131e07-7374-4a4c-a31b-5ce6d37127df" paramTypeForLog="7" paramdefclassname="String[]" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="提交" forBusinessEntity="N" help="" id="fb0bee5e-711b-4a45-8af4-f937b3d15fde" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="save" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="NEVER" typeDisplayName="合同登记表" typeName="htVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="fb0bee5e-711b-4a45-8af4-f937b3d15fde" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="fb0bee5e-711b-4a45-8af4-f937b3d15fde" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="收回" forBusinessEntity="N" help="" id="65c5b616-687b-4526-93b9-3b8025ad4b39" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unsave" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="NEVER" typeDisplayName="合同登记表" typeName="htVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="65c5b616-687b-4526-93b9-3b8025ad4b39" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="65c5b616-687b-4526-93b9-3b8025ad4b39" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="审批" forBusinessEntity="N" help="" id="9d9fdf94-f4d9-4d41-837c-7c7d5fc503dc" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="approve" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="NEVER" typeDisplayName="合同登记表" typeName="htVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="9d9fdf94-f4d9-4d41-837c-7c7d5fc503dc" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="9d9fdf94-f4d9-4d41-837c-7c7d5fc503dc" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="弃审" forBusinessEntity="N" help="" id="40597d6f-0ca6-457a-8855-8b87d0074fae" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unapprove" opItfID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" transKind="NEVER" typeDisplayName="合同登记表" typeName="htVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="40597d6f-0ca6-457a-8855-8b87d0074fae" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                        <parameter dataType="f9621660-54f6-4113-960f-305fb733e7a0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="40597d6f-0ca6-457a-8855-8b87d0074fae" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="合同登记表" typeName="htVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+            </operationlist>
+            <opImpllist>
+                <opItfImpl createTime="2011-11-19 11:27:58" creator="" description="" displayName="实现类" fullClassName="nc.impl.jxc_hr.ht01.HtglMaintainImpl" id="905bcbd1-0f55-456e-a108-b83a66fd5cbd" name="Maintain" ownerElementID="bdbf5c11-9983-4569-bc73-030d9fabdb1c" tag="" type="" versionType="0"/>
+            </opImpllist>
+        </opinterface>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>

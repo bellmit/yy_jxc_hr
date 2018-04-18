@@ -1,0 +1,6 @@
+property_zh.properties 文件说明
+
+url=http://127.0.0.1:80/service/XChangeServlet?account=develop&groupcode=01   // 外部交换平台访问路径
+路径格式为 smb://系统用户名:密码@IP/共享文件夹名/文件夹名/文件夹名/ 注：结尾/必须要
+rskg_pz=smb://administrator:rongsheng123456@192.168.27.201/ddsa/pzXML/rskg_pz/
+rskg_pzhuizhi=smb://administrator:rongsheng123456@192.168.27.201/ddsa/pzXML/rskg_pzhuizhi/

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gbk"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="funcregister" class="nc.pubapp.pade.funcmodel.vo.FuncRegister"><property name="bmf_path" value="plan\METADATA\PGD2.bmf"/>
+<property name="busiActiveList">
+<list></list>
+</property>
+<property name="cfunid" value="0001ZZ100000000CDWSB"/>
+<property name="class_name" value="nc.ui.pubapp.uif2app.ToftPanelAdaptorEx"/>
+<property name="dr" value="0"/>
+<property name="fun_name" value="派工单"/>
+<property name="fun_property" value="0"/>
+<property name="funcRegisterButtonList">
+<list></list>
+</property>
+<property name="funcRegisterParamList">
+<list><bean class="nc.pubapp.pade.funcmodel.vo.FuncRegisterParam"><property name="dr" value="0"/>
+<property name="paramname" value="BeanConfigFilePath"/>
+<property name="paramvalue" value="nc/ui/jxc_hr/jx02/pgd2/ace/view/PGD2_config.xml"/>
+<property name="parentid" value="0001ZZ100000000CDWSB"/>
+<property name="pk_param" value="0001ZZ100000000CDWSC"/>
+<property name="ts" value="2017-02-22 15:05:45"/>
+</bean>
+</list>
+</property>
+<property name="funcode" value="68H10102"/>
+<property name="funnode_path" value="plan\ace\client\68H10102.fnf"/>
+<property name="funtype" value="0"/>
+<property name="isbuttonpower" value="false"/>
+<property name="isenable" value="true"/>
+<property name="isfunctype" value="false"/>
+<property name="menuModelFilePath" value="plan/funcmodel/PGD2/menuitemregis/68H102.menu"/>
+<property name="metaDataID" value="48f52dd9-980c-4960-8d65-1d94eb527089"/>
+<property name="moduleName" value="jxc_hr"/>
+<property name="orgtypecode" value="GLOBLE00000000000000"/>
+<property name="own_module" value="68H1"/>
+<property name="pageList">
+<list></list>
+</property>
+<property name="parent_id" value="0001W1100000000CDOTL"/>
+<property name="pk_group" value="~"/>
+<property name="ts" value="2017-02-22 15:05:45"/>
+<property name="uif2model_path" value="plan\ace\uif2model\68H10102.umf"/>
+</bean>
+
+</beans>

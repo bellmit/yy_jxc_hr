@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<ufinterface account="01" billtype="voucherdel" filename="" groupcode="" isexchange="Y" replace="Y" roottag="" sender="V5-V6">
+    <voucher id="">
+        <voucherhead>
+            <!--pk_voucher,最大长度为20,类型为:String-->
+            <pk_voucher></pk_voucher>
+            <!--pk_prepared,最大长度为20,类型为:String-->
+            <pk_prepared></pk_prepared>
+        </voucherhead>
+    </voucher>
+</ufinterface>

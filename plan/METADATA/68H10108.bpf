@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gbk"?>
+<component conRouterType="手动" createIndustry="0" createTime="2011-11-11 15:44:21" creator="" description="" displayName="OrderEndVO" fromSourceBmf="true" gencodestyle="NC传统样式" help="" id="91eba605-4895-4136-94e6-8a13bbf0404a" industry="0" industryChanged="false" industryIncrease="false" industryName="基础行业" isSource="false" isbizmodel="true" mainEntity="" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="OrderEndVO" namespace="jxc_hr" ownModule="jxc_hr" preLoad="false" resModuleName="OrderEndVO" resid="" version="54" versionType="0">
+    <celllist>
+        <opinterface componentID="91eba605-4895-4136-94e6-8a13bbf0404a" createIndustry="0" createTime="2011-11-11 15:44:24" creator="" description="" displayName="操作接口" fullClassName="nc.itf.jxc_hr.jx08.IOrderendMaintain" height="155" help="" id="faed9f8c-65eb-4557-af24-4bd8c9b783e8" implClsName="nc.impl.jxc_hr.jx08.OrderendMaintainImpl" industryChanged="false" isAuthorization="true" isBusiActivity="false" isBusiOperation="false" isSource="false" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="OpInterface" remote="true" resid="" singleton="true" transprop="NONE" version="" versionType="0" visibility="public" width="136" x="68" y="52">
+            <operationlist>
+                  <operation dataTypeStyle="SINGLE" defclassname="" displayName="删除" forBusinessEntity="N" help="" id="d4443f2c-fdca-468a-a7d0-7568f9b14ec0" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="delete" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="REQUIRED" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="d4443f2c-fdca-468a-a7d0-7568f9b14ec0" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="d4443f2c-fdca-468a-a7d0-7568f9b14ec0" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="增加" forBusinessEntity="N" help="" id="f5b02279-6a55-42a5-a57a-aadaabcd2972" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="insert" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="REQUIRED" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="f5b02279-6a55-42a5-a57a-aadaabcd2972" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="f5b02279-6a55-42a5-a57a-aadaabcd2972" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="修改" forBusinessEntity="N" help="" id="c758ae3a-98db-4b87-8ffd-6ef20d77d8bb" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="update" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="REQUIRED" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="c758ae3a-98db-4b87-8ffd-6ef20d77d8bb" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="c758ae3a-98db-4b87-8ffd-6ef20d77d8bb" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                   <operation dataType="BS000010000100001001" dataTypeStyle="ARRAY" dbtype="varchar" defclassname="" displayName="查询所有PK" forBusinessEntity="N" help="" id="565fec28-61bc-424a-948d-7bf415a31b6b" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="queryPK" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="REQUIRED" typeDisplayName="String" typeName="String" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="queryScheme" isAggVO="false" name="queryScheme" operationID="565fec28-61bc-424a-948d-7bf415a31b6b" paramTypeForLog="7" paramdefclassname="nc.ui.querytemplate.querytree.IQueryScheme" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+            7ef87ae2-1915-4a19-a8dd-a316ba6b10ef7ef87ae2-1915-4a19-a8dd-a316ba6b10ef        </paramlist>
+                </operation>
+                <operation dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="根据PK查单据" forBusinessEntity="N" help="" id="cfeea1ac-22f5-4445-9e6c-ad872da56191" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="querybill" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="REQUIRED" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="pks" isAggVO="false" name="pks" operationID="cfeea1ac-22f5-4445-9e6c-ad872da56191" paramTypeForLog="7" paramdefclassname="String[]" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="提交" forBusinessEntity="N" help="" id="38be199a-bfc3-46f0-9ce0-8351e464c043" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="save" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="NEVER" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="38be199a-bfc3-46f0-9ce0-8351e464c043" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="38be199a-bfc3-46f0-9ce0-8351e464c043" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="收回" forBusinessEntity="N" help="" id="ce45f3bd-f531-4c22-991a-a575956c9a9a" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unsave" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="NEVER" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="ce45f3bd-f531-4c22-991a-a575956c9a9a" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="ce45f3bd-f531-4c22-991a-a575956c9a9a" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="审批" forBusinessEntity="N" help="" id="753df910-f70d-424b-afee-b07e76841173" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="approve" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="NEVER" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="753df910-f70d-424b-afee-b07e76841173" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="753df910-f70d-424b-afee-b07e76841173" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="弃审" forBusinessEntity="N" help="" id="82757b14-9a78-4e23-a6ce-a2d08b8f9594" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unapprove" opItfID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" transKind="NEVER" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="82757b14-9a78-4e23-a6ce-a2d08b8f9594" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                        <parameter dataType="7ef87ae2-1915-4a19-a8dd-a316ba6b10ef" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="82757b14-9a78-4e23-a6ce-a2d08b8f9594" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="工令完工申请单主表" typeName="OrderEndVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+            </operationlist>
+            <opImpllist>
+                <opItfImpl createTime="2011-11-19 11:27:58" creator="" description="" displayName="实现类" fullClassName="nc.impl.jxc_hr.jx08.OrderendMaintainImpl" id="84a3d60e-6f07-4c82-a12c-0281e79934a5" name="Maintain" ownerElementID="faed9f8c-65eb-4557-af24-4bd8c9b783e8" tag="" type="" versionType="0"/>
+            </opImpllist>
+        </opinterface>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>

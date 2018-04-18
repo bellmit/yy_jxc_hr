@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gbk"?>
+<component conRouterType="手动" createIndustry="0" createTime="2011-11-11 15:44:21" creator="" description="" displayName="BGDHVO" fromSourceBmf="true" gencodestyle="NC传统样式" help="" id="476930ae-be42-42b5-8aa0-5eda98f55e16" industry="0" industryChanged="false" industryIncrease="false" industryName="基础行业" isSource="false" isbizmodel="true" mainEntity="" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="BGDHVO" namespace="jxc_hr" ownModule="jxc_hr" preLoad="false" resModuleName="BGDHVO" resid="" version="54" versionType="0">
+    <celllist>
+        <opinterface componentID="476930ae-be42-42b5-8aa0-5eda98f55e16" createIndustry="0" createTime="2011-11-11 15:44:24" creator="" description="" displayName="操作接口" fullClassName="nc.itf.jxc_hr.jx06.IBGDMaintain" height="155" help="" id="e09baf5b-8999-407f-9e9f-11e822d844eb" implClsName="nc.impl.jxc_hr.jx06.BGDMaintainImpl" industryChanged="false" isAuthorization="true" isBusiActivity="false" isBusiOperation="false" isSource="false" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="OpInterface" remote="true" resid="" singleton="true" transprop="NONE" version="" versionType="0" visibility="public" width="136" x="68" y="52">
+            <operationlist>
+                  <operation dataTypeStyle="SINGLE" defclassname="" displayName="删除" forBusinessEntity="N" help="" id="b9cf477b-34e3-4d36-a811-5989d64bb7a9" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="delete" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="REQUIRED" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="b9cf477b-34e3-4d36-a811-5989d64bb7a9" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="b9cf477b-34e3-4d36-a811-5989d64bb7a9" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="增加" forBusinessEntity="N" help="" id="785748cc-78d7-4149-8c8e-e21f06f9c3ba" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="insert" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="REQUIRED" typeDisplayName="报工单" typeName="BGDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="785748cc-78d7-4149-8c8e-e21f06f9c3ba" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="785748cc-78d7-4149-8c8e-e21f06f9c3ba" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="修改" forBusinessEntity="N" help="" id="7018dfdd-516b-4413-bb4f-c897d7048c13" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="update" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="REQUIRED" typeDisplayName="报工单" typeName="BGDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="7018dfdd-516b-4413-bb4f-c897d7048c13" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="7018dfdd-516b-4413-bb4f-c897d7048c13" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                   <operation dataType="BS000010000100001001" dataTypeStyle="ARRAY" dbtype="varchar" defclassname="" displayName="查询所有PK" forBusinessEntity="N" help="" id="19a7bb29-0689-4e65-aa56-48c6826870af" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="queryPK" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="REQUIRED" typeDisplayName="String" typeName="String" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="queryScheme" isAggVO="false" name="queryScheme" operationID="19a7bb29-0689-4e65-aa56-48c6826870af" paramTypeForLog="7" paramdefclassname="nc.ui.querytemplate.querytree.IQueryScheme" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+            a84c9b0b-7196-4a5b-a165-0b03e64d56cfa84c9b0b-7196-4a5b-a165-0b03e64d56cf        </paramlist>
+                </operation>
+                <operation dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="根据PK查单据" forBusinessEntity="N" help="" id="f65cc864-7f6b-4e1e-9310-bfbbbe40bf44" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="querybill" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="REQUIRED" typeDisplayName="报工单" typeName="BGDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="pks" isAggVO="false" name="pks" operationID="f65cc864-7f6b-4e1e-9310-bfbbbe40bf44" paramTypeForLog="7" paramdefclassname="String[]" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="提交" forBusinessEntity="N" help="" id="8b01f4c9-e3fc-4621-ab0f-ec0270b926e6" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="save" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="NEVER" typeDisplayName="报工单" typeName="BGDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="8b01f4c9-e3fc-4621-ab0f-ec0270b926e6" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="8b01f4c9-e3fc-4621-ab0f-ec0270b926e6" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="收回" forBusinessEntity="N" help="" id="f347655d-cc86-4b3a-9024-ca7143497e12" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unsave" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="NEVER" typeDisplayName="报工单" typeName="BGDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="f347655d-cc86-4b3a-9024-ca7143497e12" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="f347655d-cc86-4b3a-9024-ca7143497e12" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="审批" forBusinessEntity="N" help="" id="c33f3aec-0cd6-4c63-a74a-d260a3e12c6f" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="approve" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="NEVER" typeDisplayName="报工单" typeName="BGDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="c33f3aec-0cd6-4c63-a74a-d260a3e12c6f" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="c33f3aec-0cd6-4c63-a74a-d260a3e12c6f" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="弃审" forBusinessEntity="N" help="" id="4ae9310d-94a3-4a84-9211-c2139e97388b" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unapprove" opItfID="e09baf5b-8999-407f-9e9f-11e822d844eb" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" transKind="NEVER" typeDisplayName="报工单" typeName="BGDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="4ae9310d-94a3-4a84-9211-c2139e97388b" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                        <parameter dataType="a84c9b0b-7196-4a5b-a165-0b03e64d56cf" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="4ae9310d-94a3-4a84-9211-c2139e97388b" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="报工单" typeName="BGDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+            </operationlist>
+            <opImpllist>
+                <opItfImpl createTime="2011-11-19 11:27:58" creator="" description="" displayName="实现类" fullClassName="nc.impl.jxc_hr.jx06.BGDMaintainImpl" id="c33539b1-4df1-4da3-8e7b-de717c936740" name="Maintain" ownerElementID="e09baf5b-8999-407f-9e9f-11e822d844eb" tag="" type="" versionType="0"/>
+            </opImpllist>
+        </opinterface>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>

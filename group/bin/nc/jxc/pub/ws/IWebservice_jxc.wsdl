@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions
+xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+xmlns:jaxws="http://java.sun.com/xml/ns/jaxws"
+jaxb:version="2.0"
+xmlns:ns0="http://ws.pub.jxc.nc/IWebservice_jxc"
+targetNamespace="http://ws.pub.jxc.nc/IWebservice_jxc">
+
+<jaxws:bindings>
+	<jaxws:package name="nc.jxc.pub.ws"/>
+</jaxws:bindings>
+
+<wsdl:types>
+   <xsd:schema xmlns:ns="http://ws.pub.jxc.nc/IWebservice_jxc"
+			attributeFormDefault="unqualified"
+			elementFormDefault="unqualified"
+			targetNamespace="http://ws.pub.jxc.nc/IWebservice_jxc" jaxb:version="2.0">
+	<xsd:annotation>
+    	<xsd:appinfo>
+   			<jaxb:schemaBindings>
+    			<jaxb:package name="nc.jxc.pub.ws"/>
+    		</jaxb:schemaBindings>
+   		</xsd:appinfo>
+   	</xsd:annotation>
+	<xsd:element name="isAccounting">
+         <xsd:complexType>
+            <xsd:sequence>
+				<xsd:element name="string"  minOccurs="0" nillable="true" type="xsd:string"/>
+             </xsd:sequence>  
+         </xsd:complexType>
+     </xsd:element>
+	<xsd:element name="isAccountingResponse">
+         <xsd:complexType>
+            <xsd:sequence>
+				<xsd:element name="return"  minOccurs="0" nillable="true" type="xsd:anyType"/>
+             </xsd:sequence>  
+         </xsd:complexType>
+     </xsd:element>
+	<xsd:element name="synVoucher">
+         <xsd:complexType>
+            <xsd:sequence>
+				<xsd:element name="string"  minOccurs="0" nillable="true" type="xsd:string"/>
+             </xsd:sequence>  
+         </xsd:complexType>
+     </xsd:element>
+	<xsd:element name="synVoucherResponse">
+         <xsd:complexType>
+            <xsd:sequence>
+				<xsd:element name="return"  minOccurs="0" nillable="true" type="xsd:anyType"/>
+             </xsd:sequence>  
+         </xsd:complexType>
+     </xsd:element>
+   </xsd:schema>
+</wsdl:types>
+    <wsdl:message name="isAccountingRequest">
+        <wsdl:part name="parameters"  element="ns0:isAccounting"/>
+    </wsdl:message>
+    <wsdl:message name="isAccountingResponse">
+        <wsdl:part name="parameters"  element="ns0:isAccountingResponse"/>
+    </wsdl:message>
+    <wsdl:message name="synVoucherRequest">
+        <wsdl:part name="parameters"  element="ns0:synVoucher"/>
+    </wsdl:message>
+    <wsdl:message name="synVoucherResponse">
+        <wsdl:part name="parameters"  element="ns0:synVoucherResponse"/>
+    </wsdl:message>
+
+    <wsdl:portType name="IWebservice_jxcPortType">
+        <wsdl:operation name="isAccounting">
+            <wsdl:input message="ns0:isAccountingRequest" wsaw:Action="urn:isAccounting"/>
+            <wsdl:output message="ns0:isAccountingResponse" wsaw:Action="urn:isAccountingResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="synVoucher">
+            <wsdl:input message="ns0:synVoucherRequest" wsaw:Action="urn:synVoucher"/>
+            <wsdl:output message="ns0:synVoucherResponse" wsaw:Action="urn:synVoucherResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    
+    
+    <wsdl:binding name="IWebservice_jxcSOAP11Binding" type="ns0:IWebservice_jxcPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="isAccounting">
+            <soap:operation soapAction="urn:isAccounting" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="synVoucher">
+            <soap:operation soapAction="urn:synVoucher" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="IWebservice_jxc">
+        <wsdl:port name="IWebservice_jxcSOAP11port_http" binding="ns0:IWebservice_jxcSOAP11Binding">
+            <soap:address location="http://localhost/uapws/service/IWebservice_jxc"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

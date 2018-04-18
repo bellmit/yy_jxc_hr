@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gbk"?>
+<module name="jxc_hr">
+	<public>
+		    <!-- 接口 -->
+		    <component priority="0" singleton="true" remote="true" tx="CMT" supportAlias="true">
+	      <interface>nc.itf.jxc_hr.jx04.ISGD_addMaintain</interface>
+	      <implementation>nc.impl.jxc_hr.jx04.SGD_addMaintainImpl</implementation>
+	    </component>
+	</public>
+</module>

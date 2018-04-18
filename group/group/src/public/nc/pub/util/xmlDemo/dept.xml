@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<ufinterface account="01" billtype="dept" filename="" groupcode="" isexchange="Y" replace="Y" roottag="" sender="V5-V6">
+    <bill id="">
+        <billhead>
+            <!--编码,最大长度为40,类型为:String-->
+            <code></code>
+            <!--名称,最大长度为200,类型为:String-->
+            <name></name>
+            <!--简称,最大长度为200,类型为:String-->
+            <shortname></shortname>
+            <!--助记码,最大长度为50,类型为:String-->
+            <mnecode></mnecode>
+            <!--所属集团,最大长度为20,类型为:String-->
+            <pk_group>0</pk_group>
+            <!--所属业务单元,最大长度为20,类型为:String-->
+            <pk_org></pk_org>
+            <!--上级部门,最大长度为20,类型为:String-->
+            <pk_fatherorg></pk_fatherorg>
+            <!--部门类型,最大长度为4,类型为:Integer-->
+            <depttype>0</depttype>
+            <!--部门级别,最大长度为20,类型为:String-->
+            <deptlevel></deptlevel>
+            <!--启用状态,最大长度为4,类型为:Integer-->
+            <enablestate>2</enablestate>
+            <!--部门成立时间,最大长度为19,类型为:UFDate-->
+            <createdate></createdate>
+            <!--部门撤销日期,最大长度为19,类型为:UFDate-->
+            <deptcanceldate></deptcanceldate>
+            <!--HR撤销标志,最大长度为1,类型为:UFBoolean-->
+            <hrcanceled>N</hrcanceled>
+            <!--显示顺序,最大长度为4,类型为:Integer-->
+            <displayorder>0</displayorder>
+            <!--报表,最大长度为1,类型为:UFBoolean-->
+            <orgtype13>N</orgtype13>
+            <!--预算,最大长度为1,类型为:UFBoolean-->
+            <orgtype17>N</orgtype17>
+            <!--负责人,最大长度为20,类型为:String-->
+            <principal></principal>
+            <!--电话,最大长度为100,类型为:String-->
+            <tel></tel>
+            <!--备注,最大长度为200,类型为:String-->
+            <memo></memo>
+        </billhead>
+    </bill>
+</ufinterface>

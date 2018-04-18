@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gbk"?>
+<module name="jxc_hr">
+	<public>
+		    <!-- 接口 -->
+		    <component priority="0" singleton="true" remote="true" tx="CMT" supportAlias="true">
+	      <interface>nc.itf.jxc_hr.ht01.IHtglMaintain</interface>
+	      <implementation>nc.impl.jxc_hr.ht01.HtglMaintainImpl</implementation>
+	    </component>
+	</public>
+</module>

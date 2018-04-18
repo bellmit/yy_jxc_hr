@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- 转单参照单据信息 -->
+	<bean id="refInfo" class="nc.ui.pubapp.billref.src.RefInfo">
+		<property name="headVO">
+			<!-- 上游单据主表VO -->
+			<bean class="nc.vo.jxc_hr.ordersheet.OrderStartVO">
+			</bean>
+		</property>
+		<!-- 上游单据子表VO -->
+		<property name="bodyVO">
+			<bean class="nc.vo.jxc_hr.ordersheet.OrderStartSubVO">
+			</bean>
+		</property>
+		<!-- 上游单据AGGVO -->
+		<property name="billVO">
+			<bean class="nc.vo.jxc_hr.ordersheet.AggOrderStartVO">
+			</bean>
+		</property>
+		<!-- 上游单据视图VO -->
+		<property name="viewVO">
+			<bean class="nc.vo.jxc_hr.ordersheet.OrderStartViewVO">
+			</bean>
+		</property>
+		<property name="billNodeKey" value="btdouble" />
+		<property name="billViewNodeKey" value="btsingle" />
+		<property name="sourcevoPkName" value="srcbillid"></property>
+		<!--<property name="sourcevoBillNOName" value="vsourcecode"></property>
+		--><!-- 上游单据查询服务 -->
+		<property name="queryService">
+			<bean
+				class="nc.ui.jxc_hr.jx08.orderend.ref.OrderStartQueryServiceForOrderEnd">
+			</bean>
+		</property>
+	</bean>
+</beans>

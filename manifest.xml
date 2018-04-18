@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <BusinessComponet name="plan" dispname="plan">
+    <public>
+      <src name="src/public"/>
+    </public>
+    <client>
+      <src name="src/client"/>
+    </client>
+    <private>
+      <src name="src/private"/>
+    </private>
+    <test>
+      <src name="src/test"/>
+    </test>
+    <resource>
+      <src name="resources"/>
+    </resource>
+    <funnodes>
+      <funnode name="施工单" code="68050101" funnode="plan/ace/client/68050101.fnf" service="plan/ace/service/68050101.smf"/>
+      <funnode name="施工增补单" code="68050104" funnode="plan/ace/client/68050104.fnf" service="plan/ace/service/68050104.smf"/>
+      <funnode name="施工单" code="68H10101" funnode="plan/ace/client/68H10101.fnf" service="plan/ace/service/68H10101.smf"/>
+      <funnode name="施工增补单" code="68H10104" funnode="plan/ace/client/68H10104.fnf" service="plan/ace/service/68H10104.smf"/>
+      <funnode name="派工单" code="68H10102" funnode="plan/ace/client/68H10102.fnf" service="plan/ace/service/68H10102.smf"/>
+      <funnode name="施工联系单" code="68H10115" funnode="plan/ace/client/68H10115.fnf" service="plan/ace/service/68H10115.smf"/>
+      <funnode name="报工单" code="68H10106" funnode="plan/ace/client/68H10106.fnf" service="plan/ace/service/68H10106.smf"/>
+      <funnode name="实物量工时" code="68H10103" funnode="plan/ace/client/68H10103.fnf" service="plan/ace/service/68H10103.smf"/>
+      <funnode name="工令申请单" code="68H10107" funnode="plan/ace/client/68H10107.fnf" service="plan/ace/service/68H10107.smf"/>
+      <funnode name="工令完工申请单" code="68H10108" funnode="plan/ace/client/68H10108.fnf" service="plan/ace/service/68H10108.smf"/>
+    </funnodes>
+  </BusinessComponet>
+</Manifest>

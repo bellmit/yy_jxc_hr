@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<ufinterface account="01" billtype="cashflow" filename="" groupcode="" isexchange="Y" replace="Y" roottag="" sender="V5-V6">
+    <bill id="pfxx_cashflow1">
+        <billhead>
+            <!--所属组织,最大长度为20,类型为:String-->
+            <pk_org></pk_org>
+            <!--所属集团,最大长度为20,类型为:String-->
+            <pk_group></pk_group>
+            <!--现金流量项目编码,最大长度为40,类型为:String-->
+            <code></code>
+            <!--现金流量项目名称,最大长度为200,类型为:String-->
+            <name></name>
+            <!--上级项目,最大长度为20,类型为:String-->
+            <pk_parent></pk_parent>
+            <!--现金流量项目类型,最大长度为0,类型为:Integer-->
+            <itemtype></itemtype>
+            <!--主表项目,最大长度为1,类型为:UFBoolean-->
+            <ismain>Y</ismain>
+            <!--助记码,最大长度为50,类型为:String-->
+            <memcode></memcode>
+            <!--次序,最大长度为20,类型为:String-->
+            <seq>1</seq>
+        </billhead>
+    </bill>
+</ufinterface>

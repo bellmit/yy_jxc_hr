@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gbk"?>
+<component conRouterType="手动" createIndustry="0" createTime="2011-11-11 15:44:21" creator="" description="" displayName="SGDADDHVO" fromSourceBmf="true" gencodestyle="NC传统样式" help="" id="c01c0279-cfbb-4e00-a662-bc243229a048" industry="0" industryChanged="false" industryIncrease="false" industryName="基础行业" isSource="false" isbizmodel="true" mainEntity="" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="SGDADDHVO" namespace="jxc_hr" ownModule="jxc_hr" preLoad="false" resModuleName="SGDADDHVO" resid="" version="54" versionType="0">
+    <celllist>
+        <opinterface componentID="c01c0279-cfbb-4e00-a662-bc243229a048" createIndustry="0" createTime="2011-11-11 15:44:24" creator="" description="" displayName="操作接口" fullClassName="nc.itf.jxc_hr.jx04.ISGD_addMaintain" height="155" help="" id="d2e6a061-8f48-40ed-9680-27963f3dac75" implClsName="nc.impl.jxc_hr.jx04.SGD_addMaintainImpl" industryChanged="false" isAuthorization="true" isBusiActivity="false" isBusiOperation="false" isSource="false" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="OpInterface" remote="true" resid="" singleton="true" transprop="NONE" version="" versionType="0" visibility="public" width="136" x="68" y="52">
+            <operationlist>
+                  <operation dataTypeStyle="SINGLE" defclassname="" displayName="删除" forBusinessEntity="N" help="" id="321593db-a0bc-4f21-ae7b-c1fa8acd59f2" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="delete" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="REQUIRED" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="321593db-a0bc-4f21-ae7b-c1fa8acd59f2" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="321593db-a0bc-4f21-ae7b-c1fa8acd59f2" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="增加" forBusinessEntity="N" help="" id="784488eb-8728-4fd7-b64c-e52d6ad119f4" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="insert" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="REQUIRED" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="784488eb-8728-4fd7-b64c-e52d6ad119f4" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="784488eb-8728-4fd7-b64c-e52d6ad119f4" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="修改" forBusinessEntity="N" help="" id="f501167d-1398-4f98-99a1-c5fc9dc5a8d3" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="update" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="REQUIRED" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="f501167d-1398-4f98-99a1-c5fc9dc5a8d3" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="f501167d-1398-4f98-99a1-c5fc9dc5a8d3" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                   <operation dataType="BS000010000100001001" dataTypeStyle="ARRAY" dbtype="varchar" defclassname="" displayName="查询所有PK" forBusinessEntity="N" help="" id="e2b8ba04-7e8d-4fdd-a462-c85e7b12a8ff" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="queryPK" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="REQUIRED" typeDisplayName="String" typeName="String" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="queryScheme" isAggVO="false" name="queryScheme" operationID="e2b8ba04-7e8d-4fdd-a462-c85e7b12a8ff" paramTypeForLog="7" paramdefclassname="nc.ui.querytemplate.querytree.IQueryScheme" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+            31a80bcd-a8a1-4303-8cab-22516a7347d031a80bcd-a8a1-4303-8cab-22516a7347d0        </paramlist>
+                </operation>
+                <operation dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="根据PK查单据" forBusinessEntity="N" help="" id="49d5832d-b1f8-4fe6-b2a2-787b8e0524ac" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="querybill" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="REQUIRED" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="pks" isAggVO="false" name="pks" operationID="49d5832d-b1f8-4fe6-b2a2-787b8e0524ac" paramTypeForLog="7" paramdefclassname="String[]" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="提交" forBusinessEntity="N" help="" id="56730d27-dc69-43c1-8e5b-f3669f59f96b" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="save" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="NEVER" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="56730d27-dc69-43c1-8e5b-f3669f59f96b" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="56730d27-dc69-43c1-8e5b-f3669f59f96b" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="收回" forBusinessEntity="N" help="" id="9cf3c9d1-ee8b-430d-b638-1a4fcc92fddc" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unsave" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="NEVER" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="9cf3c9d1-ee8b-430d-b638-1a4fcc92fddc" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="9cf3c9d1-ee8b-430d-b638-1a4fcc92fddc" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="审批" forBusinessEntity="N" help="" id="4aa6c94b-ca62-450f-bb41-0f491ea7cae7" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="approve" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="NEVER" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="4aa6c94b-ca62-450f-bb41-0f491ea7cae7" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="4aa6c94b-ca62-450f-bb41-0f491ea7cae7" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="弃审" forBusinessEntity="N" help="" id="83ca0181-8c81-4e38-a97f-6ebc272c2aa7" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unapprove" opItfID="d2e6a061-8f48-40ed-9680-27963f3dac75" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" transKind="NEVER" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="83ca0181-8c81-4e38-a97f-6ebc272c2aa7" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                        <parameter dataType="31a80bcd-a8a1-4303-8cab-22516a7347d0" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="83ca0181-8c81-4e38-a97f-6ebc272c2aa7" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="施工增补单" typeName="SGDADDHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+            </operationlist>
+            <opImpllist>
+                <opItfImpl createTime="2011-11-19 11:27:58" creator="" description="" displayName="实现类" fullClassName="nc.impl.jxc_hr.jx04.SGD_addMaintainImpl" id="6eeadc58-2842-4267-a4f6-0be6e0e3f850" name="Maintain" ownerElementID="d2e6a061-8f48-40ed-9680-27963f3dac75" tag="" type="" versionType="0"/>
+            </opImpllist>
+        </opinterface>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>

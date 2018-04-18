@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gbk"?>
+<component conRouterType="手动" createIndustry="0" createTime="2011-11-11 15:44:21" creator="" description="" displayName="SWLGSHVO" fromSourceBmf="true" gencodestyle="NC传统样式" help="" id="cbf0c36e-f373-49ba-ab0f-6e68484556ed" industry="0" industryChanged="false" industryIncrease="false" industryName="基础行业" isSource="false" isbizmodel="true" mainEntity="" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="SWLGSHVO" namespace="jxc_hr" ownModule="jxc_hr" preLoad="false" resModuleName="SWLGSHVO" resid="" version="54" versionType="0">
+    <celllist>
+        <opinterface componentID="cbf0c36e-f373-49ba-ab0f-6e68484556ed" createIndustry="0" createTime="2011-11-11 15:44:24" creator="" description="" displayName="操作接口" fullClassName="nc.itf.jxc_hr.jx03.ISWLGSMaintain" height="155" help="" id="08373b0c-b226-4a6f-9d37-876b46d7d3f0" implClsName="nc.impl.jxc_hr.jx03.SWLGSMaintainImpl" industryChanged="false" isAuthorization="true" isBusiActivity="false" isBusiOperation="false" isSource="false" modifier="" modifyIndustry="0" modifyTime="2012-06-26 20:43:55" name="OpInterface" remote="true" resid="" singleton="true" transprop="NONE" version="" versionType="0" visibility="public" width="136" x="68" y="52">
+            <operationlist>
+                  <operation dataTypeStyle="SINGLE" defclassname="" displayName="删除" forBusinessEntity="N" help="" id="0f683c8c-9f22-44d1-a15d-bf1888b8a0c6" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="delete" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="REQUIRED" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="0f683c8c-9f22-44d1-a15d-bf1888b8a0c6" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="0f683c8c-9f22-44d1-a15d-bf1888b8a0c6" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="增加" forBusinessEntity="N" help="" id="d71827be-4918-4096-a1a2-3a80624a699a" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="insert" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="REQUIRED" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="d71827be-4918-4096-a1a2-3a80624a699a" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="d71827be-4918-4096-a1a2-3a80624a699a" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="修改" forBusinessEntity="N" help="" id="482eeb6d-aee6-4469-a6cf-db20196ced2a" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="update" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="REQUIRED" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="482eeb6d-aee6-4469-a6cf-db20196ced2a" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="482eeb6d-aee6-4469-a6cf-db20196ced2a" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                   <operation dataType="BS000010000100001001" dataTypeStyle="ARRAY" dbtype="varchar" defclassname="" displayName="查询所有PK" forBusinessEntity="N" help="" id="55ace200-df09-49ce-b6aa-4ee2a11c3a10" isAggVOReturn="false" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="queryPK" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="REQUIRED" typeDisplayName="String" typeName="String" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="queryScheme" isAggVO="false" name="queryScheme" operationID="55ace200-df09-49ce-b6aa-4ee2a11c3a10" paramTypeForLog="7" paramdefclassname="nc.ui.querytemplate.querytree.IQueryScheme" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+            a6da6ce4-1a92-40f9-bbf4-9246c4687e22a6da6ce4-1a92-40f9-bbf4-9246c4687e22        </paramlist>
+                </operation>
+                <operation dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="根据PK查单据" forBusinessEntity="N" help="" id="0f3365c2-5a56-4581-9bcf-d53d08356d9a" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="querybill" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="REQUIRED" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="BS000010000100001056" dataTypeStyle="SINGLE" dbtype="varchar" description="" displayName="pks" isAggVO="false" name="pks" operationID="0f3365c2-5a56-4581-9bcf-d53d08356d9a" paramTypeForLog="7" paramdefclassname="String[]" sequence="0" typeDisplayName="自定义项" typeName="CUSTOM" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="提交" forBusinessEntity="N" help="" id="e374b9eb-0d40-47ec-a8a9-111de4b73bc5" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="save" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="NEVER" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="e374b9eb-0d40-47ec-a8a9-111de4b73bc5" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="e374b9eb-0d40-47ec-a8a9-111de4b73bc5" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="收回" forBusinessEntity="N" help="" id="92a86343-faa1-4635-885b-2e21ffc31746" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unsave" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="NEVER" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="92a86343-faa1-4635-885b-2e21ffc31746" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="92a86343-faa1-4635-885b-2e21ffc31746" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="审批" forBusinessEntity="N" help="" id="d92e197f-0bc4-4da9-b4f4-a434ca53acd0" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="approve" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="NEVER" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="d92e197f-0bc4-4da9-b4f4-a434ca53acd0" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="d92e197f-0bc4-4da9-b4f4-a434ca53acd0" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+                <operation dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" defclassname="" displayName="弃审" forBusinessEntity="N" help="" id="3874da8b-4796-4c9d-8e6a-981d2e6afd02" isAggVOReturn="true" isBusiActivity="false" methodException="nc.vo.pub.BusinessException" name="unapprove" opItfID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" transKind="NEVER" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0" visibility="public">
+                    <paramlist>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="clientFullVOs" isAggVO="true" name="clientFullVOs" operationID="3874da8b-4796-4c9d-8e6a-981d2e6afd02" paramTypeForLog="7" paramdefclassname="" sequence="0" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                        <parameter dataType="a6da6ce4-1a92-40f9-bbf4-9246c4687e22" dataTypeStyle="ARRAY" dbtype="" description="" displayName="originBills" isAggVO="true" name="originBills" operationID="3874da8b-4796-4c9d-8e6a-981d2e6afd02" paramTypeForLog="7" paramdefclassname="" sequence="1" typeDisplayName="实物量工时" typeName="SWLGSHVO" versionType="0"/>
+                    </paramlist>
+                </operation>
+            </operationlist>
+            <opImpllist>
+                <opItfImpl createTime="2011-11-19 11:27:58" creator="" description="" displayName="实现类" fullClassName="nc.impl.jxc_hr.jx03.SWLGSMaintainImpl" id="43f0fb78-dffd-488a-9ec6-7c120ef23df9" name="Maintain" ownerElementID="08373b0c-b226-4a6f-9d37-876b46d7d3f0" tag="" type="" versionType="0"/>
+            </opImpllist>
+        </opinterface>
+    </celllist>
+    <connectlist/>
+    <refdepends/>
+    <refdependLoseIDs/>
+    <cellRemoveLog/>
+    <rulers>
+        <ruler isHorizontal="true" unit="0">
+            <guideList/>
+        </ruler>
+        <ruler isHorizontal="false" unit="0">
+            <guideList/>
+        </ruler>
+    </rulers>
+</component>

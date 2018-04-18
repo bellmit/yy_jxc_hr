@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<ufinterface account="01" billtype="user" filename="" groupcode="" isexchange="Y" replace="Y" roottag="" sender="V5-V6">
+    <bill id="">
+        <billhead>
+            <cuserid></cuserid>
+            <!--用户名称,最大长度为200,类型为:String-->
+            <user_name></user_name>
+            <!--用户编码,最大长度为50,类型为:String-->
+            <user_code></user_code>
+            <!--用户密码,最大长度为50,类型为:String-->
+            <user_password></user_password>
+            <!--备注,最大长度为50,类型为:String-->
+            <user_note></user_note>
+            <!--密码参数,最大长度为200,类型为:String-->
+            <pwdparam></pwdparam>
+            <!--生效日期,最大长度为19,类型为:UFDate-->
+            <abledate></abledate>
+            <!--失效日期,最大长度为19,类型为:UFDate-->
+            <disabledate></disabledate>
+            <!--锁定,最大长度为1,类型为:UFBoolean-->
+            <islocked>N</islocked>
+            <!--身份类型,最大长度为0,类型为:Integer-->
+            <base_doc_type></base_doc_type>
+			 <!--身份,最大长度为101,类型为:String-->
+            <pk_base_doc></pk_base_doc>
+            <!--所属组织,最大长度为20,类型为:String-->
+            <pk_org></pk_org>         
+            <!--用户类型,最大长度为1,类型为:Integer-->
+            <user_type>0</user_type>
+            <!--所属用户组,最大长度为20,类型为:String-->
+            <pk_usergroupforcreate></pk_usergroupforcreate>
+            <!--数据格式,最大长度为20,类型为:String-->
+            <format></format>
+            <!--CA用户,最大长度为1,类型为:UFBoolean-->
+            <isca>N</isca>
+            <!--启用状态,最大长度为0,类型为:Integer-->
+            <enablestate>2</enablestate>
+            <!--内容语种,最大长度为20,类型为:String-->
+            <contentlang></contentlang>
+            <!--用户编码（查询）,最大长度为50,类型为:String-->
+            <user_code_q></user_code_q>
+			<!--认证类型,最大长度为50,类型为:String-->
+            <identityverifycode>静态密码验证</identityverifycode>
+			<!--密码安全级别,最大长度为50,类型为:String-->
+            <pwdlevelcode>预置级</pwdlevelcode>
+            <!--密码参数,最大长度为200,类型为:String-->
+            <pwdparam></pwdparam>
+        </billhead>
+    </bill>
+</ufinterface>
